@@ -37,6 +37,7 @@ pipeline {
 		stage('code-build'){
 			steps{
 				sh 'cat /etc/os-release'
+				sh 'lscpu'
 			}
 		}
 	}
